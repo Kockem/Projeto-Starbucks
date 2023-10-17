@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.centralizador {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.Logo {
+    width: 50%;
+}
+header {
+    padding: 20px 0;
+}
+.menu {
+    width: 50%;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+}
+.menu>a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 15px;
+    color: black;
+}
+.menu>a:hover {
+    color: #017143;
+}
+.complementos {
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    right: -300px;
+    background-color: #017143;
+}
+.Redes-Sociais {
+    position: absolute;
+}
+.Redes-Sociai img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+    bottom: 300px;
+    right: -340px;
+    margin: 5px;
+}
+.Redes-Sociais img:hover  {
+    border-radius: 50%;
+    border: 1px solid white;
+ }
+em {
+    color:  #017143;
+}
+.textos {
+    margin-top: 100px; 
+}
+.textos>h1 {
+    font-size: 50px;   
+}
+.textos>p {
+    max-width: 700px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.textos>button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #017143;
+}
+.textos>button:hover {
+    transition: 200ms;
+    background-color: white ;
+    color: #017143;
+}
